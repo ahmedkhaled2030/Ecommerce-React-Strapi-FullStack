@@ -38,7 +38,7 @@ const products =  useSelector(state=> state.cart.products)
 
         </div>
         <div className="center">
-          <Link className ="link" to="/">SHEIN111</Link>
+          <Link className ="link" to="/">Hello SHEIN</Link>
         </div>
         <div className="right">
           <div className="item">
