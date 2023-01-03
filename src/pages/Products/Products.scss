@@ -1,0 +1,61 @@
+.products{
+    display: flex;
+    padding:30px 50px ;
+    @media (max-width: 480px) {
+        flex-direction: column;
+      }
+
+    .left{
+        flex:1;
+        position: sticky;
+        top: 50px;
+        height: 100%;
+        @media (max-width: 480px) {
+           
+            display: flex;
+          }
+          @media (min-width: 481px) and  (max-width: 768px) {
+            margin-right: 20px;
+          }
+
+        .filterItem{
+            margin-bottom: 50px;
+            @media (max-width: 480px) {
+           
+               flex:1;
+              }
+            h2{
+                font-weight: 400;
+                margin-bottom: 20px;
+                @media (min-width: 481px) and  (max-width: 768px) {
+                   font-size: 18px;
+                  }
+            }
+            .inputItem{
+                margin-bottom: 10px;
+                span{
+                    margin: 0 10px;
+                }
+                label{
+                    margin-left: 10px;
+                    @media (min-width: 481px) and  (max-width: 768px) {
+                        font-size: 15px;
+                       }
+                }
+            }
+        }
+      
+    }
+    .right{
+        flex:3;
+        .catImg{
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            margin-bottom: 50px;
+            @media (max-width: 480px) {
+                visibility: hidden;
+              }
+        }
+    }
+}
