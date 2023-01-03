@@ -3,6 +3,7 @@ import "./Card.scss";
 import { Link } from "react-router-dom";
 
 const Card = ({ item }) => {
+  console.log(item.attributes?.img2?.data?.attributes?.url)
   
   return (
     <Link className="link" to={`/product/${item.id}`}>
