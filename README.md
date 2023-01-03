@@ -28,7 +28,7 @@
 🚀 Material UI<br />
 🚀 Node.js<br />
 🚀 Express<br />
-🚀 Starpi<br />
+🚀 Strapi<br />
 🚀 Postman<br />
 
 ## Live Demo
