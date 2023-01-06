@@ -77,6 +77,11 @@ const Navbar = () => {
           </div>
           <div className="item">
             <Link className="link" to="/">
+              Vision
+            </Link>
+          </div>
+          <div className="item">
+            <Link className="link" to="/">
               Contact
             </Link>
           </div>
