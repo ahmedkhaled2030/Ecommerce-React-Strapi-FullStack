@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Arrival from '../../components/Arrival/Arrival'
+
 import Categories from '../../components/Categories/Categories'
 import FeaturedProducts from '../../components/FeaturedProducts/FeaturedProducts'
 import Slider from '../../components/Slider/Slider'
@@ -14,7 +14,7 @@ const Home = () => {
     <div>
       <Slider />
       <FeaturedProducts type="featured" />
-      {/* <Arrival /> */}
+
       <Categories />
       <FeaturedProducts type="trending" />
     </div>

@@ -17,9 +17,10 @@ const Slider = () => {
   // const [currentSlide, setCurrentSlide] = useState(0);
 
   const data = [
-    "https://images.pexels.com/photos/1549200/pexels-photo-1549200.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    "https://images.pexels.com/photos/949670/pexels-photo-949670.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    "https://images.pexels.com/photos/837140/pexels-photo-837140.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "https://img.ltwebstatic.com/images3_ach/2022/12/03/16700475557e96ff3636dba274e9d06d527bd1e324_thumbnail_1920x.png",
+    "https://img.ltwebstatic.com/images3_ach/2022/12/16/1671176042923d0e1d0fe8dbf0f1dc9a536ae4967f_thumbnail_1920x.webp",
+    "https://img.ltwebstatic.com/images3_ach/2022/12/02/1669967654b70892b308734c5f3fade235e9fef327_thumbnail_1920x.webp",
+    "https://img.ltwebstatic.com/images3_ach/2022/12/02/1669971610ccc7f97074fac180e959c0bb4a3d4fd5_thumbnail_1920x.webp"
   ];
 
   // const prevSlide = () => {
@@ -53,6 +54,7 @@ const Slider = () => {
         <SwiperSlide><img src={data[0]} alt="" /> </SwiperSlide>
         <SwiperSlide><img src={data[1]} alt="" /> </SwiperSlide>
         <SwiperSlide><img src={data[2]} alt="" /> </SwiperSlide>
+        <SwiperSlide><img src={data[3]} alt="" /> </SwiperSlide>
      
       </Swiper>
     </div>

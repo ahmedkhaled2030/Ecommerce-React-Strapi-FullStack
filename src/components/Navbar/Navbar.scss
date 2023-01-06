@@ -7,14 +7,18 @@
 
 .navbar {
   height: 80px;
+  padding:15px 0 ;
   background-color: white;
   z-index: 990;
-  position: sticky;
+  
   position: fixed;
   width: 100%;
-  top: 5vh;
+  top: 4vh;
+
   @media (max-width: 768px) {
-    height: 50px;
+    height: 60px;
+    padding:15px 0 ;
+   
   }
   .wrapper {
     padding: 10px 30px;
@@ -44,6 +48,8 @@
       display: flex;
       align-items: center;
       gap: 25px;
+      justify-content: flex-end;
+      
 
       .icons {
         display: flex;
@@ -157,11 +163,14 @@
     @media (max-width: 768px) {
       display: block;
       position: fixed;
-      top: 7vh;
+      top: 14vh;
       left: 0;
       width: 50%;
       height: 93vh;
-      background-color: #ffffff;
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      background: rgba(255,255,255,.8);
+      transition: 0.3s ease-in-out;
       padding: 30px 0px;
       text-align: center;
       transform: translateX(-100%);

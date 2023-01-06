@@ -1,13 +1,16 @@
 .contact {
   display: flex;
-  height: 70vh;
   flex-wrap: wrap;
+
 
   .left {
     flex: 1;
     background-color: #001d7c;
     color: white;
     padding: 60px;
+    @media (max-width: 768px) {
+      padding: 30px 20px;
+    }
     h2 {
       font-weight: 600;
       margin-bottom: 30px;
@@ -15,6 +18,10 @@
     p {
       font-size: 18px;
       margin-bottom: 100px;
+      @media (max-width: 768px) {
+        font-size: 13px;
+        margin-bottom: 40px;
+      }
     }
     .input-wrapper {
       display: flex;
@@ -30,6 +37,9 @@
         border-bottom-left-radius: 6px;
         color: white;
         font-size: 16px;
+        @media (max-width: 768px) {
+          width: 245px;
+        }
       }
       input::placeholder {
         color: white;
@@ -57,6 +67,9 @@
       font-size: 14px;
       span {
         text-decoration: underline;
+        @media (max-width: 768px) {
+         font-size: 13px;
+        }
       }
     }
   }
@@ -65,14 +78,22 @@
     flex: 1;
     padding: 80px 60px;
     background-color: #e8e8e8;
+    @media (max-width: 768px) {
+      padding: 10px;
+    }
     h2{
 font-weight: 500;
 margin-bottom: 20px;
+
     }
+  
     .image-wrapper{
         display: flex;
         
         margin-bottom: 60px;
+        @media (max-width: 480px) {
+          flex-direction: column;
+        }
      
         img{
             height: 215px;
