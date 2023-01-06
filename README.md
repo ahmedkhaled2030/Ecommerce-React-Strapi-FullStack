@@ -1,4 +1,4 @@
-## Responsive Shopping Cart (React -Strapi) [SHEIN]
+## Responsive Shopping Cart (React -Strapi) [Oberlo]
 
 ## Features
 ✅ using Redux toolkit for state management for handling cart and login.<br />

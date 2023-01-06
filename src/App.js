@@ -13,6 +13,8 @@ import { FormControl, InputLabel, MenuItem, Select } from "@mui/material";
 import { useEffect, useState } from "react";
 import i18next from "i18next";
 import cookies from 'js-cookie';
+import Top from "./components/Top/Top";
+import { Contact } from "./components/Contact/Contact";
 
 
 
@@ -100,8 +102,10 @@ import cookies from 'js-cookie';
 const Layout = () => {
   return (
     <div className='app'>
+      <Top />
       <Navbar />
       <Outlet />
+      <Contact />
       <Footer />
     </div>
   )
