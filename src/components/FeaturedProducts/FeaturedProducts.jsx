@@ -55,7 +55,7 @@ const FeaturedProducts = ({ type }) => {
             }
           }}
         >
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <div>
               <img
                 src="https://img.ltwebstatic.com/images3_pi/2022/08/12/1660291519fdcf2e74cc361cb6e3d40f80c270765d_thumbnail_405x552.webp"
@@ -123,14 +123,17 @@ const FeaturedProducts = ({ type }) => {
                 alt=""
               />
             </div>
-          </SwiperSlide>
-        </Swiper>
-        {/* {
+          </SwiperSlide> */}
+          <SwiperSlide>
+          {
           error
           ? "Something went wrong"
           : loading
           ? "Loading"
-          : data?.map((item) => <Card item={item} key={item.id} />)} */}
+          : data?.map((item) => <Card item={item} key={item.id} />)}
+          </SwiperSlide>
+        </Swiper>
+     
       </div>
     </div>
   );
