@@ -33,7 +33,7 @@
 
 ## Live Demo
 
-https://ecommercestrapi.vercel.app
+
 
 ## Desktop imgs
 ![React-App](https://user-images.githubusercontent.com/113113701/210123726-b69fe627-a100-426b-8d99-e3ba8b84846d.jpg)
