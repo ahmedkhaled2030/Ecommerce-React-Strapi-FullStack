@@ -31,7 +31,6 @@
 🚀 Strapi<br />
 🚀 Postman<br />
 
-## Live Demo
 
 
 
